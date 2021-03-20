@@ -1,7 +1,7 @@
 {
-  "name": "@npm-publish/test-skeleton-compile",
+  "name": "react-native-shimmer-loading",
   "version": "0.1.0",
-  "description": "test",
+  "description": "A simple react-native loader skeleton effect.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "files": [
@@ -15,8 +15,7 @@
     "preversion": "yarn lint",
     "version": "yarn format && git add .",
     "postversion": "git push && git push --tags",
-    "test": "jest --no-watchman",
-    "coveralls": "jest --coverage && cat ./coverage/lcov.info | coveralls"
+    "test": "jest --no-watchman"
   },
   "jest": {
     "preset": "react-native",
@@ -42,16 +41,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jhonnysc/react-native-skeleton-loader"
+    "url": "https://github.com/jhonnysc/react-native-shimmer-loading"
   },
   "keywords": [
     "node",
     "npm"
   ],
   "bugs": {
-    "url": "https://github.com/jhonnysc/react-native-skeleton-loader/issues"
+    "url": "https://github.com/jhonnysc/react-native-shimmer-loading/issues"
   },
-  "homepage": "https://github.com/jhonnysc/react-native-skeleton-loader#readme",
+  "homepage": "https://github.com/jhonnysc/react-native-shimmer-loading#readme",
   "dependencies": {
     "react-native-linear-gradient": "^2.5.6",
     "react-native-reanimated": "^2.0.0"
